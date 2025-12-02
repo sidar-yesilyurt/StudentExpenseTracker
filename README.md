@@ -1,18 +1,31 @@
-## Getting Started
+# Student Expense Manager 💰
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A Java-based console application designed to help students track and manage their daily expenses.
+## Features
 
-## Folder Structure
+- **Add Regular Expenses**: Record standard expenses with title and amount
+- **Add Discounted Expenses**: Track purchases with student discounts applied
+- **View All Expenses**: Display a comprehensive list of all recorded expenses
+- **Calculate Total Spending**: See your total expenditure including discounts
+- **Find Highest Expense**: Identify your largest purchase
+- **Input Validation**: Robust error handling for invalid inputs
 
-The workspace contains two folders by default, where:
+## Project Structure
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+```
+Coursework 3 Program/
+├── src/
+│   ├── Main.java          # Main program with menu and user interaction
+│   ├── Expense.java       # Base expense class
+│   └── Discounts.java     # Discounted expense subclass
+├── bin/                   # Compiled output files
+├── lib/                   # Dependencies folder
+└── README.md
+```
+## Author
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Sidar Yesilyurt
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## License
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+This project is part of university coursework.
