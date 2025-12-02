@@ -1,4 +1,4 @@
-# Student Expense Manager 💰
+# Student Expense Manager
 
 A Java-based console application designed to help students track and manage their daily expenses.
 ## Features
