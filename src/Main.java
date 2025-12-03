@@ -205,7 +205,7 @@ public class Main {
         Expense highest = expenses.get(0);
         
         // Find the biggest expense
-        for (int i = 1; i < expenses.size(); i++) {
+        for (int i = 1; i < expenses.size(); i++) { // Compares each expense one by one to find the highest expense
             if (expenses.get(i).getFinalFigure() > highest.getFinalFigure()) {
                 highest = expenses.get(i);
             }
